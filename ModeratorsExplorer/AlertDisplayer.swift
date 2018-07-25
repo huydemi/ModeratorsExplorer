@@ -42,7 +42,7 @@ extension AlertDisplayer where Self: UIViewController {
     let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
     actions?.forEach { action in
       alertController.addAction(action)
-    }
+    } 
     present(alertController, animated: true)
   }
 }
